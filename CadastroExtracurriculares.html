@@ -33,15 +33,24 @@
                         </select>
                         <label for="materiaInput" class="form-label">Matéria</label>
                         <select class="form-select form-select-lg" name="materia" id="materiaInput">
-                            <option selected>Escolha a Matéria</option>
-                            <option value="1">Matemática</option>
-                            <option value="2">LPM</option>
+                            <option selected>Escolha a Área</option>
+                            <option value="1">Exatas</option>
+                            <option value="2">Técnico</option>
+                            <option value="3">Humanas</option>
+                            <option value="4">Ciências da Natureza</option>
+                            
                         </select>
                     </div>
                     <div class="mt-3">
                         <label for="" class="form-label">Descrição</label>
                         <textarea class="form-control" name="descricao" id="descricaoInput" rows="4"></textarea>
                     </div>
+                    <button type="submit" value="Enviar" class="btn btn-danger" >
+                        <i class="bi bi-send"></i> Enviar
+                          </button>
+                        <button type="reset" value="Limpar" class="btn btn-danger btn-secondary" data-bs-container="body" data-toggle="popover" data-bs-placement="bottom" data-toggle="popover"   data-bs-content="Campos apagados">
+                            <i class="bi bi-x-circle"></i> Limpar
+                        </button>
 
                 </div>
             </div>
