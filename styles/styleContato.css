@@ -1,0 +1,39 @@
+.fundoNavContato {
+  background-color: #5e458c !important;
+}
+nav #fundo {
+  height: 100vh;
+}
+
+a:link {
+  color: #ffffff;
+}
+
+a {
+  color: white !important;
+}
+
+.conteudo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body {
+  background-color: #221933;
+}
+
+.contato {
+  box-shadow: 14px 14px 0px 0px rgba(0, 0, 0, 0.75);
+  border-radius: 5px;
+  background-color: #5e458c;
+  width: 80%;
+  display: block;
+  margin: 0 auto;
+  color: white;
+}
+
+h3 {
+  margin-top: 50px;
+  color: white;
+}
+
